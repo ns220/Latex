@@ -1,0 +1,23 @@
+\documentclass{article} 
+\usepackage{tikz} 
+\begin{document} 
+% Tree diagram 
+\begin{tikzpicture}[ 
+level 1/.style={sibling distance=5.5cm}, 
+level 2/.style={sibling distance=3.5cm} 
+] 
+% Root node 
+%\node[circle, draw, fill=blue!20, text=red, minimum size=2cm] {root} 
+\node {root} 
+% Level 1 nodes 
+child {node {Child 1} 
+% Level 2 nodes 
+child {node {Grandchild 1}} 
+child {node {Grandchild 2}} 
+} 
+child {node {Child 2} 
+child {node {Grandchild 3}} 
+child {node {Grandchild 4}} 
+}; 
+\end{tikzpicture} 
+\end{document}

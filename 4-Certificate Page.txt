@@ -1,0 +1,30 @@
+\documentclass{article} 
+\begin{document} 
+\begin{titlepage} 
+\centering 
+\vspace*{2cm} 
+{\LARGE \textbf{CERTIFICATE}\par} 
+\vspace{1cm} 
+This is to certify that\par 
+\vspace{0.5cm} 
+\underline{\hspace{8cm}}\par % Space for Name 
+\vspace{0.5cm} 
+has successfully completed the project work entitled\par 
+\vspace{0.5cm} 
+\underline{\hspace{8cm}}\par % Space for Project Title 
+\vspace{0.5cm} 
+under our guidance and supervision.\par 
+\vspace{1cm} 
+\begin{flushright} 
+\underline{\hspace{5cm}}\\ % Space for Guide/Supervisor Name 
+Guide/Supervisor\\ 
+\vspace{1cm} 
+\underline{\hspace{5cm}}\\ % Space for Department Head Name 
+Head of the Department\\ 
+\end{flushright} 
+\vfill 
+\centering 
+\rule{0.8\textwidth}{0.4pt}\\ % Horizontal line 
+Date: \underline{\hspace{4cm}} % Space for Date 
+\end{titlepage} 
+\end{document} 
